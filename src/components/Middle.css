@@ -1,0 +1,53 @@
+#middleParent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(205, 241, 255);
+}
+#middleParent *{
+    padding: 0;
+    margin: 0;
+}
+#middleHeader{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: auto;
+}
+#sectionParent{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#sectionParent h4{
+    font-size: 1.1em;
+    padding: .5em 0 .8em 0;
+}
+#sectionParent p{
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
+:root{
+    --section-width: 10em;
+}
+#section1{
+    width: var(--section-width);
+}
+#section2{
+    width: var(--section-width);
+}
+#section3{
+    width: var(--section-width);
+}
+
+#middleParent img{
+    width: 4.5em;
+    height: 4.5em;
+    margin: auto;
+    border-radius: 50%;
+}
+#section1, #section2, #section3{
+    display: flex;
+    flex-direction: column;
+}

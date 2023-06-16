@@ -1,0 +1,50 @@
+#bottomParent{
+    display: grid;
+    place-content: center;
+    background-color: rgb(233, 238, 255);
+}
+#bottomParent *{
+    padding: 0;
+    margin: 0;
+}
+#bottomParent img{
+    width: 7em;
+}
+#bottomBox{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background: rgb(175, 236, 255);
+    width: 20em;
+    height: fit-content;
+    padding: 1em 0 1em 0;
+    justify-content: space-evenly;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px rgb(0, 0, 170) solid;
+}
+#descParent{
+    width: 10em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#head{
+    font-size: 1.5rem;
+}
+#desc{
+    font-size: 1rem;
+}
+#name{
+    font-size: 1.05rem;
+}
+@media (max-width:750px){
+    #parent{
+        border: none;
+        outline: none;
+        width: 100vw;
+        height: 100vh;
+    }
+}
