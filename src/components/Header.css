@@ -4,6 +4,7 @@
     text-align: center;
     display: grid;
     place-content: center;
+    background-color: rgb(133, 209, 255);
 }
 #headerParent h1,#headerParent h3{
     padding: 0;
