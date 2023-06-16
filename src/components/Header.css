@@ -1,5 +1,5 @@
 #headerParent{
-    background-image: url('la.jpg');
+    background-image: url('/la.jpg');
     background-size: cover;
     text-align: center;
     display: grid;
